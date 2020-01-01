@@ -1,0 +1,21 @@
+#BP checker
+
+x1 = int(input("Enter 1st Diastolic: "))
+x2 = int(input("Enter 2nd Diastolic: "))
+x3 = int(input("Enter 3rd Diastolic: "))
+y1 = int(input("Enter 1st Systolic: "))
+y2 = int(input("Enter 2nd Systolic: "))
+y3 = int(input("Enter 3rd Systolic: "))
+	
+	    
+x = int((x1 + x2 + x3) / 3)
+y = int((y1 + y2 + y3) / 3)
+
+def BP_value():
+	'''Takes 3 values from a BP device and returns the correct average of BP taken for proper record keeping'''
+	return( x,  y)
+	
+print(BP_value())
+
+	
+	
